@@ -1,6 +1,7 @@
-package avltree;
+package avltre3;
 
-public class Node<E>{
+
+public class Node<E>{ //clase generica que representa un nodo
 	protected E data;
 	protected Node<E> left, right;
 
@@ -9,6 +10,6 @@ public class Node<E>{
 		left = right = null;
 	}
 	public String toString() {
-		return data.toString();
+		return data.toString(); //representacion como string
 	}
 }
